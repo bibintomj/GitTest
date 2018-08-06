@@ -1,4 +1,6 @@
 
+Basics
+
 1. Create a folder
 2. Navigate to that folder in terminal
 3.
@@ -8,7 +10,18 @@
 5. There are 3 states in git.
   a. Untracked (All modified files which are not added staging. Files in this state will not be committed.)
   b. Staging (This state holds a copy of files that are ready to be committed. This copy will not be changed even if the original file is changed. To reflect the changes, you have to re-add them)
-  c. Commited ()
+  c. Commited (Committed means the local files are same as that of in the repo.)
+
+-----------------------------------------------------------------------
+
+Commit Types
+
+1. Checkout Commit: (safe) Go back to a previous revision in read only form. Cannot modify the code(This is to preserve the commit history).
+2. Revert Commit: (medium risk) This removes an older commit from history.
+3. Reset Commit: (dangerous) This resets back to revision in history. This will remove all intermediate commits made from that point till today
+
+
+
 
 -----------------------------------------------------------------------
 Commands
@@ -31,3 +44,6 @@ Commands
         Displays logs of all commits.
   h. 'git log --oneline'
         Displays short version of all logs
+
+
+
