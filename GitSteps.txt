@@ -10,7 +10,7 @@
   b. Staging (This state holds a copy of files that are ready to be committed. This copy will not be changed even if the original file is changed. To reflect the changes, you have to re-add them)
   c. Commited ()
 
-
+-----------------------------------------------------------------------
 Commands
   a. 'git status'
         Displays all files in Untracked & Staging area.
@@ -22,5 +22,12 @@ Commands
         Adds all Untracked files in the current folder to Staging
   e. ' git commit -m "THis is a commit message" '
         Commits all files in staging
+
+-----------------------------------------------------------------------
+
   f. 'git checkout -- index.html'
         Reverts an Untracked file to same copy in commited or staging.
+  g. 'git log'
+        Displays logs of all commits.
+  h. 'git log --oneline'
+        Displays short version of all logs
