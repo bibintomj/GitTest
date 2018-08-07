@@ -116,16 +116,16 @@ General Commands
         Git URI is found in github page. Clones a repo to local directory. Git origin will also be set automatically
   g. 'git remote add origin <git URI>'
         Adds origin to a local repo.
-  g. 'git push origin <branchname>'
+  h. 'git push origin <branchname>'
         Commits a specific branch to Github. This works only if you added git origin first. You have to input username & password.
 
 -----------------------------------------------------------------------
 
-  f. 'git checkout -- index.html'
+  i. 'git checkout -- index.html'
         Reverts an Untracked file to same copy in commited or in staging.
-  g. 'git log'
+  j. 'git log'
         Displays logs of all commits.
-  h. 'git log --oneline'
+  k. 'git log --oneline'
         Displays short version of all logs
 
 
@@ -137,10 +137,18 @@ Branches
       In case if you want to add a new feature, you create a branch from master and start working on it.
       Once the feature is completed & tested, you can merge it back the master.
 
+      Steps:
+      1. Create a branch.
+      2. Switch to that branch using checkout command
+      3. Make Changes.
+      4. Add to Staging & Commit.
+      5. Switch to master branch using checkout command
+
       Commands:
         'git branch <branch name>'
             Creates a new branch with given name
         'git branch' OR  'git branch -a'
             Shows all branches. '-a' means ALL; Shows remote branches also.
+
 
 
