@@ -17,14 +17,19 @@ Basics
 Commit Types
 
 1. Checkout Commit: (safe) Go back to a previous revision in read only form. Cannot modify the code(This is to preserve the commit history).
+      Commands:
+            a. 'git checkout <revision number>'
+                  Switches to a previously commited revision.
+            b. 'git checkout master'
+                  Switches back to latest commit
+
 2. Revert Commit: (medium risk) This removes an older commit from history.
 3. Reset Commit: (dangerous) This resets back to revision in history. This will remove all intermediate commits made from that point till today
 
 
 
-
 -----------------------------------------------------------------------
-Commands
+General Commands
   a. 'git status'
         Displays all files in Untracked & Staging area.
   b. 'git add index.html'
@@ -39,7 +44,7 @@ Commands
 -----------------------------------------------------------------------
 
   f. 'git checkout -- index.html'
-        Reverts an Untracked file to same copy in commited or staging.
+        Reverts an Untracked file to same copy in commited or in staging.
   g. 'git log'
         Displays logs of all commits.
   h. 'git log --oneline'
