@@ -24,6 +24,10 @@ Commit Types
                   Switches back to latest commit
 
 2. Revert Commit: (medium risk) This creates a new commit with reverting changes from a specified commit in history.
+      Commads:
+            'git revert <revision number to revert>'
+                  Creates a new commit discarding the changes of specified commit.
+
 3. Reset Commit: (dangerous) This resets back to revision in history. This will remove all intermediate commits made from that point till today
 
 
