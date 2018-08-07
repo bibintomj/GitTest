@@ -165,7 +165,7 @@ Pull
       'git pull origin master'
             Updating local repo with latest changes in remote repo.
             Run 'master checkout' before this.
-Pull Request
+Pull Request (means merge request )
       A person can checkout a branch from master. If they want to merge it to master branch, they can create a pull request.
       The master brach owner get a notification about this, they can review and merge or reject.
 
