@@ -19,7 +19,7 @@ Commit Types
 1. Checkout Commit: (safe) Go back to a previous revision in read only form. Cannot modify the code(This is to preserve the commit history).
       Commands:
             a. 'git checkout <revision number>'
-                  Switches to a previously commited revision.
+                  Switches to a previously committed revision.
             b. 'git checkout master'
                   Switches back to latest commit
 
@@ -64,4 +64,14 @@ General Commands
         Displays short version of all logs
 
 
+-----------------------------------------------------------------------
+
+
+Branches
+      Code that is stable and available to everyone is the master branch.
+      In case if you want to add a new feature, you create a branch from master and start working on it.
+      Once the feature is completed & tested, you can merge it back the master.
+
+      Commands:
+        'git'
 
