@@ -51,7 +51,7 @@ General Commands
         Git URI is found in github page. Clones a repo to local directory. Git origin will also be set automatically
   g. 'git remote add origin <git URI>'
         Adds origin to a local repo.
-  g. 'git push origin <branchname>'
+  g. 'git push origin <branchname>' OR 'git push <git URI> <branchname>'
         Commits a specific branch to Github. This works only if you added git origin first. You have to input username & password.
 
 -----------------------------------------------------------------------
@@ -115,7 +115,7 @@ General Commands
   f. 'git clone <git URI>'
         Git URI is found in github page. Clones a repo to local directory. Git origin will also be set automatically
   g. 'git remote add origin <git URI>'
-        Adds origin to a local repo.
+        Adds an alias 'origin' for specified git URI to a local repo.
   h. 'git push origin <branchname>'
         Commits a specific branch to Github. This works only if you added git origin first. You have to input username & password.
 
@@ -143,11 +143,8 @@ Branches
       3. Make Changes.
       4. Add to Staging & Commit.
       5. Switch to master branch using checkout command
-            a. To merge a branch
-
-
-            b. To Delete a branch
-
+      6. Merge branches to master
+      7. If conflict, resolve it manually. Then add to staging & commit.
 
       Commands:
         'git branch <branch name>'
@@ -157,6 +154,9 @@ Branches
         'git branch' OR  'git branch -a'
             List all branches. '-a' means ALL; Shows remote branches also.
         'git branch -d <branchname>' OR 'git branch -D <branchname>'
-                        Deletes a branch. '-d' means deleted only if merged. '-D' means delete anyway.
+            Deletes a branch. '-d' means deleted only if merged. '-D' means delete anyway.
+        'git merge <branchname>'
+            merges a branch to master. Do this only after checking out master.
+
 
 
