@@ -29,8 +29,11 @@ Commit Types
                   Creates a new commit discarding the changes of specified commit.
 
 3. Reset Commit: (dangerous) This resets back to revision in history. This will remove all intermediate commits made from that point till today
-
-
+      Commands:
+            a. 'git reset <revision to revert back to>'
+                  This will revert back to a previous commit. But will not change the files in local repo. All the changes made after that commit will stay as unchanged. This step can be used to combine a few previous commits and combine it as one.
+            b. 'git reset <revision to revert back to> --hard'
+                  Similar to first command; But presence of '--hard' means hard reset. ie, local files WILL be changed to that previous version.
 
 -----------------------------------------------------------------------
 General Commands
