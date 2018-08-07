@@ -23,7 +23,7 @@ Commit Types
             b. 'git checkout master'
                   Switches back to latest commit
 
-2. Revert Commit: (medium risk) This removes an older commit from history.
+2. Revert Commit: (medium risk) This creates a new commit with reverting changes from a specified commit in history.
 3. Reset Commit: (dangerous) This resets back to revision in history. This will remove all intermediate commits made from that point till today
 
 
@@ -38,8 +38,14 @@ General Commands
         Removes a specific file from Staging
   d. 'git add .'
         Adds all Untracked files in the current folder to Staging
-  e. ' git commit -m "THis is a commit message" '
+  e. 'git commit -m "THis is a commit message" '
         Commits all files in staging
+  f. 'git clone <git URI>'
+        Git URI is found in github page. Clones a repo to local directory. Git origin will also be set automatically
+  g. 'git remote add origin <git URI>'
+        Adds origin to a local repo.
+  g. 'git push origin <branchname>'
+        Commits a specific branch to Github. This works only if you added git origin first. You have to input username & password.
 
 -----------------------------------------------------------------------
 
