@@ -143,12 +143,20 @@ Branches
       3. Make Changes.
       4. Add to Staging & Commit.
       5. Switch to master branch using checkout command
+            a. To merge a branch
+
+
+            b. To Delete a branch
+
 
       Commands:
         'git branch <branch name>'
-            Creates a new branch with given name
+            Creates a new branch with given name only. Should manually checkout after this.
+        'git checkout -b <branch name>'
+            Creates a branch and Checks out.
         'git branch' OR  'git branch -a'
-            Shows all branches. '-a' means ALL; Shows remote branches also.
-
+            List all branches. '-a' means ALL; Shows remote branches also.
+        'git branch -d <branchname>' OR 'git branch -D <branchname>'
+                        Deletes a branch. '-d' means deleted only if merged. '-D' means delete anyway.
 
 
